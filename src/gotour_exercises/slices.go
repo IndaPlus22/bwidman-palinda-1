@@ -1,7 +1,6 @@
 package main
 
 import "golang.org/x/tour/pic"
-import "math"
 
 func Pic(dx, dy int) [][]uint8 {
 	image := make([][]uint8, dy)
